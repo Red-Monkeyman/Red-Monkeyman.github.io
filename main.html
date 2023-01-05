@@ -1,0 +1,36 @@
+<div id="game">
+  <div id="boss">
+    <label for="boss-name-input">Boss Name:</label>
+    <input id="boss-name-input" type="text">
+    <label for="boss-avatar-input">
+      <img id="boss-avatar" src="boss.png" alt="Boss Avatar">
+    </label>
+    <input id="boss-avatar-input" type="file" accept="image/*">
+    <div id="boss-health-bar">
+      <div id="boss-health"></div>
+    </div>
+  </div>
+  <div id="player">
+    <label for="player-name-input">Player Name:</label>
+    <input id="player-name-input" type="text">
+    <label for="player-avatar-input">
+      <img id="player-avatar" src="player.png" alt="Player Avatar">
+    </label>
+    <input id="player-avatar-input" type="file" accept="image/*">
+    <div id="player-health-bar">
+      <div id="player-health"></div>
+    </div>
+  </div>
+  <div id="controls">
+    <button id="right-answer-button">Right Answer</button>
+    <button id="wrong-answer-button">Wrong Answer</button>
+    <button id="hand-button">Hold Up Hand</button>
+  </div>
+  <div id="level-form">
+    <label for="level-input">Boss Level:</label>
+    <input id="level-input" type="number" min="1" value="1">
+    <button id="level-button">Confirm</button>
+  </div>
+  <div id="message"></div>
+  <button id="restart-button">Restart</button>
+</div>
